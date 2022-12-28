@@ -1,0 +1,57 @@
+:root {
+  --brand-color-blue: #2196f3;
+  --brand-color-black: #212121;
+  --brand-color-grey: #757575;
+  --brand-color-white: #fff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--brand-color-black);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;    
+}
+
+.nav-a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--brand-color-black);
+}
+
+.nav-a:hover,
+.nav-a:focus {
+  color: var(--brand-color-blue);
+}
+
+.contact-a {  
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--brand-color-grey);
+}
+
+.contact-a:hover,
+.contact-a:focus {
+  color: var(--brand-color-blue);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--brand-color-blue);
+  color: var(--brand-color-white);
+}
+
+.footer-link {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--brand-color-blue);
+}
