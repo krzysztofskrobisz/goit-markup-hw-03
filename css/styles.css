@@ -197,12 +197,12 @@ body {
   background-color: var(--brand-color-white);
 }
 
-.descript {
-  /* padding-left: 0;
-  padding-right: 0; */
-  /* padding-top: 94px;
-  padding-bottom: 94px; */
-}
+/* .descript {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+} */
 
 .descript-item {
   width: 270px;
