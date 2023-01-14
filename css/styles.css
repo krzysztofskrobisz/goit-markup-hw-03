@@ -20,6 +20,10 @@ body {
   background-color:  var(--brand-color-white);  
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -243,9 +247,9 @@ body {
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  margin: 0;
+  /* margin: 0; */
   margin-bottom: 50px;
-  padding: 0;
+  /* padding: 0; */
 }
 
 .section-h3-title {
@@ -260,8 +264,8 @@ body {
 .about-us {
   /* margin-top: 94px; */
   text-align: center;
-  padding-left: 0;
-  padding-right: 0;
+  /* padding-left: 0;
+  padding-right: 0; */
   margin-bottom: 94px;
 }
 
@@ -288,7 +292,7 @@ body {
   border-radius: 0px 0px 4px 4px;
   max-width: 270px;
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 25px;
 }
 
 .team-item:last-child {
