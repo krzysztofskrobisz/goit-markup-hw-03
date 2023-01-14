@@ -401,14 +401,14 @@ img {
 }
 
 .address-link {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);  
   text-decoration: none;
 }
 
 .address-link:hover,
 .address-link:focus,
 .address-link:active {
-  color: var(--brand-color-white);
+  color: var(--brand-color-blue);
 }
 
 .address-item span {
