@@ -19,7 +19,8 @@ body {
   --white_background-color: #FFFFFF;
   --modal_background-color: #FCFCFC;
 }
-/*Comman Styles*/
+
+/*Common Styles*/
 
 * {
   margin: 0px;
@@ -27,10 +28,10 @@ body {
 }
 
 .container {
-  width: 1128px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  }
+}
 
 img {
   display: block;
@@ -63,11 +64,11 @@ img {
 
 /*Header Styles*/
 
-.page-header{
+.page-header {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.container-header{
+.container-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -138,7 +139,7 @@ img {
   color: var(--pressed_state-color);
 }
 
-/*Portfolio Section no. 1 Styles*/
+/*Portfolio Section no.1 Styles*/
 
 .section-project {
   padding-top: 96px;
@@ -163,11 +164,11 @@ img {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
+
 .filter-button:hover,
 .filter-button:focus {
   color: #FFFFFF;
   background-color: #404BBF;
-  
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -177,6 +178,7 @@ img {
   cursor: pointer;
   border: 1px solid transparent;
 }
+
 .project-list {
   flex-wrap: wrap;
   column-gap: 24px;
@@ -200,7 +202,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  }
+}
+
 .project-text {
   color: var(--text-color);
   font-size: 16px;
@@ -208,12 +211,13 @@ img {
   letter-spacing: 0.02em;
 }
 
-/*Studio Hero Section no. 1 Styles*/
+/*Studio Hero Section no.1 Styles*/
 
 .hero-section {
   background-color: var(--hero_background-color);
   padding: 188px 0px;
 }
+
 .main-headline {
   color: #FFF;
   font-size: 56px;
@@ -240,12 +244,13 @@ img {
   cursor: pointer;
   margin: auto auto auto auto;
 }
+
 .main-headline-button:hover,
 .main-headline-button:focus {
   background-color: var(--pressed_state-color);
 }
 
-/*Studio Oblective Section no. 2 Styles*/
+/*Studio Oblective Section no.2 Styles*/
 
 .section-objectives {
   padding: 120px 0;
@@ -267,12 +272,12 @@ img {
 }
 
 .sub-headline-objectives {
-color: var(--dark-color);
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.4px;
-margin-bottom: 8px;
+  color: var(--dark-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 
 .text-objectives {
@@ -282,7 +287,7 @@ margin-bottom: 8px;
   letter-spacing: 0.02em;
 }
 
-/*Studio Doing Section no. 3 Styles*/
+/*Studio Doing Section no.3 Styles*/
 
 .doing-section {
   background-color: var(--white_background-color);
@@ -293,17 +298,18 @@ margin-bottom: 8px;
   flex-basis: calc((100% - 48px) / 3);
 }
 
-/*Studio Team Section no. 4 Styles*/
+/*Studio Team Section no.4 Styles*/
 
 .team-section {
   background: #F4F4FD;
   padding: 120px 0;
 }
+
 .list-team {
   background-color: #FFFFFF;
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
-  }
+}
 
 .name-team {
   padding: 32px 0px;
@@ -317,7 +323,8 @@ margin-bottom: 8px;
   letter-spacing: 0.4px;
   text-align: center;
   margin-bottom: 8px;
-  }
+}
+
 .team-position {
   color: var(--text-color);
   font-size: 16px;
@@ -332,6 +339,7 @@ margin-bottom: 8px;
   background-color: var(--hero_background-color);
   padding: 100px 0;    
 }
+
 .footer-navigation-logo {
   color: var(--primary_brand-color);
   font-family: 'Raleway', sans-serif;
