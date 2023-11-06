@@ -78,7 +78,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px 0;
+  
 }
 
 .navigation-logo {
@@ -91,6 +91,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .logo-span {
@@ -250,7 +251,7 @@ img {
   background-color: var(--pressed_state-color);
 }
 
-/*Studio Oblective Section no.2 Styles*/
+/*Studio Objective Section no.2 Styles*/
 
 .section-objectives {
   padding: 120px 0;
