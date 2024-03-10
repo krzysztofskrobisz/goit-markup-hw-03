@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -21,6 +26,10 @@ body {
 
 .list {
   list-style: none;
+}
+
+img {
+  display: block;
 }
 
 .navigation-logo {
