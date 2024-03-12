@@ -247,7 +247,7 @@ footer {
   padding: 100px 0;
 }
 
-/* .navigation-logo {
+.footer-navigation-logo {
   color: var(--primary_brand-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -255,8 +255,10 @@ footer {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;  
-} */
+  display: inline-block;
+  margin-right: 76px;
+  margin-bottom: 16px; 
+}
 
 .logo-footerspan {
   color: var(--light-color);
@@ -264,7 +266,7 @@ footer {
 
 .footer-text {
   color: var(--light-color);
-  /* font-size: 16px; */
+  /* margin-bottom: 16px; */
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
