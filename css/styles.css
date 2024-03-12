@@ -178,7 +178,9 @@ img {
   overflow: hidden;
 }
 
-
+.sides-section-list {
+  flex-basis: calc((100% - 72px) / 4);
+}
 
 .sides-section-heading {
   color: var(--dark-color);
