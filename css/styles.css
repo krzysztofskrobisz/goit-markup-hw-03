@@ -70,7 +70,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
+  margin-right: 76px;  
 }
 
 .logo-span {
@@ -133,7 +133,7 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
-  /* margin: auto auto 48px auto; */
+  /* margin: auto auto 48px auto; TO NA BANK BĘDZIE POTRZEBNE PÓŹNIEJ */
   text-align: center;
   /* font-weight: 700; */
 }
@@ -146,7 +146,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   display: block;
-  /* margin: auto auto auto auto; */
+  /* margin: auto auto auto auto; TO NA BANK BĘDZIE POTRZEBNE PÓŹNIEJ */
   min-width: 169px;
   height: 56px;
   border: none;
@@ -154,10 +154,10 @@ img {
   cursor: pointer;
 }
 
-.hero-section-button:hover,
+/* .hero-section-button:hover,
 .hero-section-button:focus {
-  background-color: var(--pressed_state-color);
-}
+  background-color: var(--pressed_state-color); TO NA BANK BĘDZIE POTRZEBNE PÓŹNIEJ
+} */
 
 /* section no2 our strong sides */
 
@@ -244,7 +244,19 @@ img {
 
 footer {
   background-color: var(--hero_background-color);
+  padding: 100px 0;
 }
+
+/* .navigation-logo {
+  color: var(--primary_brand-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 76px;  
+} */
 
 .logo-footerspan {
   color: var(--light-color);
@@ -255,4 +267,5 @@ footer {
   /* font-size: 16px; */
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
