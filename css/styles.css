@@ -202,6 +202,7 @@ img {
 
 .team-section {
   background-color: var(--light-color);
+  padding: 120px 0;
 }
 
 .team-section-title {
