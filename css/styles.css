@@ -77,12 +77,18 @@ img {
   color: var(--dark-color);
 }
 
+.navigation-page {
+  gap: 40px;
+}
+
 .navigation-link {
   color: var(--dark-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;  
+  letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: inline-block;
 }
 
 .navigation-link:hover,
@@ -92,6 +98,11 @@ img {
 
 .address {
   font-style: normal;
+}
+
+.address-list {
+  gap: 40px;
+  margin-right: 0px;
 }
 
 .address-link {
