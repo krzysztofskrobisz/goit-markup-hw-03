@@ -246,17 +246,26 @@ img {
 
 /* section no4 our portfolio */
 
-/* .portfolio-section {
-  
+.portfolio-section {
+  padding-top: 120px;
+  padding-bottom: 120px;  
 }
 
 .portfolio-section-title {
+  margin-bottom: 72px;
+  /* font-size: 36px; */
+}
 
+.portfolio-section-ul {
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-section-list {
+  width: calc((100% - 48px) / 3);
 
-} */
+}
 
 .portfolio-section-our-title {
   color: var(--dark-color);
