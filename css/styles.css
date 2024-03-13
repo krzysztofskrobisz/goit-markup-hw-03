@@ -253,7 +253,8 @@ img {
 
 .portfolio-section-title {
   margin-bottom: 72px;
-  /* font-size: 36px; */
+  /* font-size: 36px; TO NA BANK BĘDZIE POTRZEBNE PÓŹNIEJ */
+  /* margin: auto auto auto auto; czy jakoś inaczej, ale trzeba wyśrodkować TO NA BANK BĘDZIE POTRZEBNE PÓŹNIEJ */
 }
 
 .portfolio-section-ul {
